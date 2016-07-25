@@ -20,7 +20,7 @@ Another suttle detail is what happens when a small board is tied. If a small boa
 
 I think that's about it, if I forgot anything please let me know! I'm also aware that the graphics are not very nice, but hey it works :P
 
-## Running the Programs - Love2D
+## Running the Program - Love2D
 
 This program is written in Lua using the Love2D framework. It's absolutely excellent and you should check it out here: https://love2d.org/
 
