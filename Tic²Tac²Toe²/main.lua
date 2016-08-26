@@ -1,5 +1,6 @@
 -- Tic²Tac²Toe²
 -- by thearst3rd
+-- edited by Nicole Burns
 
 function love.load()
 	
@@ -17,8 +18,8 @@ function love.load()
 	-- Define player colors
 	
 	ply1Color = { 255, 0, 0 }
-	ply2Color = { 0, 0, 255 }
-	tieColor = { 0, 127, 0 }
+	ply2Color = { 0, 0, 0 }
+	tieColor = { 200, 200, 200 }
 	
 	-- Create menu layout
 	menu = {}
@@ -109,7 +110,7 @@ function love.draw() 	---------- DRAW ----------
 		love.graphics.printf( "Tic²Tac²Toe²", 0, 90, love.graphics.getWidth(), "center" )
 		
 		love.graphics.setFont( fontMed )
-		love.graphics.printf( "by thearst3rd", 0, 200, love.graphics.getWidth(), "center" )
+		love.graphics.printf( "by thearst3rd and Nicole Burns", 0, 200, love.graphics.getWidth(), "center" )
 		
 		if gameState == 0 then
 			drawButton( menu.playButton )
